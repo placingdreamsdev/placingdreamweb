@@ -1,0 +1,229 @@
+.gpt3__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+    padding: 5vh;
+    margin-top: 1.5vh;
+}
+
+.gpt3__footer-heading{
+    width: 100%;
+    text-align: center;
+
+}
+
+.gpt3__footer_heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.gpt3__footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    border: 1px solid #fff;
+    text-align: center;
+
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.gpt3__footer-btn p {
+    font-size: 18px;
+    font-family: var(--font-family);
+    line-height: 21px;
+    color: #fff;
+    word-spacing: 2px;
+}
+
+.gpt3__footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    /* border: 1px solid red; */
+    padding-top: 15vh;
+    text-align: left;
+}
+
+.gpt3__footer_links div {
+    width: 320px;
+    margin: 1rem;
+    /* border: 1px solid red; */
+
+}
+
+.gpt3__footer_links_logo {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 180px;
+    /* border: 1px solid red; */
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  --font-family: 'Manrope', sans-serif;
+
+}
+
+.gpt3__footer_links_logo a {
+    font-family: var(--font-family);
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.gpt3__footer_links_div {
+    flex: content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* border: 1px solid red; */
+}
+
+.gpt3__footer_links_div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin-bottom: 2rem;
+}
+
+.gpt3__footer_links_div p {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.gpt3__footer_copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.gpt3__footer_copyright p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+    padding-bottom: 1vh;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__footer_heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .gpt3__footer_links {
+        /* border: 1px solid red; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+
+    .gpt3__footer_links_logo {
+        /* border: 1px solid red; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } 
+
+    .linkers {
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__footer_heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+        
+    }
+
+    .gpt3__footer_links div {
+        margin: 1rem 0;
+
+    }
+
+    .linkers {
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+    .gpt3__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gpt3__footer_heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
+
+.linkers {
+    display: flex;
+    flex: 1;
+    animation: s;
+}
+
+@media screen and (max-width: 400px) {
+    .linkers {
+        display: grid;
+        grid-row: 2;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    /* .linkers {
+        display: grid;
+        justify-content: center;
+    } */
+    .mobile {
+        text-align: center;
+    }
+}
+.WhatsAppIcon:hover{
+    color: lightgreen;
+}
+
+.InstagramIcon:hover{
+    color: rgb(214, 22, 205);
+}
+
+.fbIcon:hover{
+color: aqua;
+}
+.mobile{
+    /* border: 2px solid red; */
+    color: #fff;
+    margin: 0.8vh 1.75vw;
+    width: 19vw;
+}

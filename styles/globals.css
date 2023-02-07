@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+
+body {
+    background: var(--color-bg);
+    /* overflow: hidden; */
+  }
+  
+  
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(90deg, #EE82EE 0%, #00D1FF 100%);
+  --gradient-bar: linear-gradient(90deg, #EE82EE 0%, #00D1FF 100%);
+  
+  --color-bg: #000000;
+  --color-footer : #80002d;
+  --color-blog: #4d001b;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+
+.body2{
+
+  scroll-behavior: smooth;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(341deg, #000000 53%, #540017 100%); 
+ 
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(341deg, #000000 53%, #540017 100%);
+   
+    /* opera 11.10+ */
+    background:-o-linear-gradient(341deg, #000000 53%, #540017 100%);
+   
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#540017', GradientType=1 );
+   
+    /* ie 10+ */
+    background:-ms-linear-gradient(341deg, #000000 53%, #540017 100%);
+   
+    /* global 94%+ browsers support */
+    background:linear-gradient(341deg, #000000 53%, #540017 100%);
+}
+
+
+.overall{
+ 
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.main{
+  color: linear-gradient(90deg, #EE82EE 0%, #00D1FF 100%);
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+
+h4 {
+  color:#00D1FF
+  
+}
+
+.course_nav {
+  height: 10vh;
+  /* border: 1px solid blue; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses_btn {
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1vw;
+  margin: 0 0 0 0.5vw;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .course_nav {
+    display: none;
+  }
+}

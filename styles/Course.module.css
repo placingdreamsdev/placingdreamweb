@@ -1,0 +1,54 @@
+.page {
+    background: black;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses {
+    width: 30vh;
+    margin: 0 2vw;
+    padding: 1vw 0;
+    background: #80002d;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    box-shadow: 0 0 4px 1px white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 880px ) {
+    .courses {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .courses {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .page {
+        height: 0;
+    }
+    .main {
+        display: block;
+        height: fit-content;
+        margin-top: 25vh;
+    }
+
+    .courses {
+        margin: 5vh auto;
+    }
+
+}
