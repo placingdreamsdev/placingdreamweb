@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Placing Dreams</title>
+        <title>Placing Dreams - Best School in Mumbai, Maharashtra - INDIA</title>
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Working in the film industry is considered to be one of the most tempting and glamorous careers of the 21st century, but is the way to the zenith really going to be a cakewalk? Definitely not. With the success rate less than most of the other career paths, it is really a difficult task to get into this profession, but everything is possible for a dreamer"
+          content="Working in the film industry is considered to be one of the most tempting and glamorous careers of the 21st century, but is the way to the zenith really going to be a cakewalk? Definitely not. With the success rate less than most of the other career paths"
         />
         <meta
           name="keywords"
